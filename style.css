@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial;
+    background-color: #FAFAFA;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #B8B6BF;
+    padding: 8px 16px;
+
+}
+#menu{
+    display: flex;
+    gap: 16px;
+    color: black;
+    list-style: none;
+
+}
+#menu a {
+    color: black;
+    text-decoration: none;
+
+}
+
+header {
+    background-color: #137160;
+    color: #F8F8F8;
+    padding: 100px 32px 8px 32px;
+
+}
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.subtitle {
+    font-weight: 400;
+    margin-bottom: 86px;
+
+}
+h2 {
+    font-size: 22px;
+}
+.title-header {
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+.cours-image {
+    width: 100%;
+    max-width: 960px;
+
+}
+#concepts {
+    margin: 86px 16px;
+}
+.card {
+    padding: 16px 16px 8px 16px;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+}
